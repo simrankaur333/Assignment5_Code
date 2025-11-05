@@ -15,3 +15,12 @@ In Part 1, we wrote and organized tests for the **BarnesAndNoble** class to veri
 - Tested the branch where the requested quantity exceeds available stock.
 - Ensured the total price and quantity adjustments match expected behavior.
 
+## Part 2 – Continuous Integration Workflow
+A **GitHub Actions** workflow was added to automatically run tests and static analysis on each push to `main`.
+
+- Runs **Checkstyle** and **JUnit tests** with **JaCoCo** coverage.
+- Uploads both reports as workflow artifacts.
+- Workflow runs successfully on every push.
+
+![Build Status](https://github.com/simrankaur333/Assignment5_Code/actions/workflows/SE333_CI.yml/badge.svg)
+
