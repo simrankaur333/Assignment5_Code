@@ -1,4 +1,4 @@
-package org.example.Amazon.Barnes;
+package org.example.Barnes;
 
 import static org.mockito.Mockito.*;
 

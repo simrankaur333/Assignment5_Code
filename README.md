@@ -24,3 +24,15 @@ A **GitHub Actions** workflow was added to automatically run tests and static an
 
 ![Build Status](https://github.com/simrankaur333/Assignment5_Code/actions/workflows/SE333_CI.yml/badge.svg)
 
+## Part 3 – Amazon Testing
+
+### Unit Tests
+- Tested `calculate()` using mocks for `ShoppingCart` and `PriceRule`.
+- Verified `addToCart()` correctly calls `ShoppingCart.add()`.
+
+### Integration Tests
+- Used real `ShoppingCartAdaptor` and `Database`.
+- Tested total price calculation with multiple items.
+- Verified behavior for empty cart.
+
+
